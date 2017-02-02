@@ -1,3 +1,4 @@
+$darker: #002654;
 $main: #345c97;
 $lighter: #6785b1;
 
@@ -10,7 +11,7 @@ $standard_border: 1px solid $main;
 
 /*Sets the background color for the Qwidget name in the title*/
 .qp_institution_name_bar{
-    background-color: $main;
+    background-color: $darker;
 }
 
 /*Sets the font color for the Qwidget name in the title*/
