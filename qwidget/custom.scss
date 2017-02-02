@@ -1,4 +1,7 @@
 $main: #345c97;
+$lighter: #6785b1;
+
+$standard_border: 1px solid $main;
 
 /*Sets the border color for the entire Qwidget*/
 #qpchatwidget{
@@ -27,14 +30,14 @@ $main: #345c97;
 
 /*Sets the background color for icons bar*/
 .qp_icons_bar{
-    border-bottom: 1px solid $main;
-    background-color: #FFE0B2;
+    border-bottom: $standard_border;
+    background-color: $lighter;
 }
 
 /*Sets the background and border color for help icon*/
 .qp_help_icon{
-    border-right: 1px solid $main;
-    background-color: #FFE0B2;
+    border-right: $standard_border;
+    background-color: $lighter;
 }
 
 /*Sets the image for the help icon in the icons bar section*/
@@ -53,7 +56,7 @@ $main: #345c97;
 
 /*Sets the background color for the email icon*/
 .qp_email_icon{
-    background-color: #FFE0B2;
+    background-color: $lighter;
 }
 
 /*Sets the email icon image*/
@@ -63,8 +66,8 @@ $main: #345c97;
 
 /*Sets the background color for the end chat icon*/
 .qp_end_chat_icon{
-    border-left: 1px solid $main;
-    background-color: #FFE0B2;
+    border-left: $standard_border;
+    background-color: $lighter;
 }
 
 /*Sets the end chat image*/
@@ -98,8 +101,8 @@ $main: #345c97;
 
 /*Sets the background color for the nudge message*/
 .qp_nudge_message{
-    background-color: #FFE0B2;
-    border: 1px solid $main;
+    background-color: $lighter;
+    border: $standard_border;
 }
 
 /*Sets the background color and font color for 'Librarian is typing..' message */
@@ -110,7 +113,7 @@ $main: #345c97;
 
 /*Sets the background color for the container which surrounds the input box where the patron types the question*/
 .qp_question_input_area{
-    background-color: #FFE0B2;
+    background-color: $lighter;
 }
 
 /*Sets the border color for container containing the input box*/
@@ -126,7 +129,7 @@ $main: #345c97;
 
 /*Sets the background color for the send button arrow*/
 .qp_send_button{
-    background-color: #FFE0B2;
+    background-color: $lighter;
 }
 
 /*Sets the send button arrow image*/
@@ -140,7 +143,7 @@ $main: #345c97;
 
 /*Sets the background color for the initial email overlay*/
 .qp_initial_main{
-    background-color: #FFE0B2;
+    background-color: $lighter;
 }
 
 /*Sets the background color and font color for the email address textbox*/
@@ -158,13 +161,13 @@ $main: #345c97;
 /*Sets the background color gradient, font color and border color for the Send button*/
 .qp_initial_send_button{
     color: black;
-    border: 1px solid $main;
-    background-image: -webkit-linear-gradient(top, #FFE0B2, $main);
-    background-image: -moz-linear-gradient(center top , #FFE0B2, $main);
-    background-image: -ms-linear-gradient(top, #FFE0B2, $main);
-    background-image: -o-linear-gradient(top, #FFE0B2, $main);
-    background-image: linear-gradient(top, #FFE0B2, $main);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0B2', endColorstr='$main');
+    border: $standard_border;
+    background-image: -webkit-linear-gradient(top, $lighter, $main);
+    background-image: -moz-linear-gradient(center top , $lighter, $main);
+    background-image: -ms-linear-gradient(top, $lighter, $main);
+    background-image: -o-linear-gradient(top, $lighter, $main);
+    background-image: linear-gradient(top, $lighter, $main);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$lighter', endColorstr='$main');
 }
 
 /*----------End session overlay---------*/
@@ -172,7 +175,7 @@ $main: #345c97;
 
 /*Sets the background color for the end session overlay screen*/
 .qp_end_session_overlay{
-    background-color: #FFE0B2;
+    background-color: $lighter;
 }
 
 /*Sets the color for the border*/
@@ -184,13 +187,13 @@ $main: #345c97;
 /*Sets the background color gradient, font color and border color for the Email session transcripts button*/
 .qp_end_session_email_transcripts{
     color: black;
-    border: 1px solid $main;
-    background-image: -webkit-linear-gradient(top, #FFE0B2, $main);
-    background-image: -moz-linear-gradient(center top , #FFE0B2, $main);
-    background-image: -ms-linear-gradient(top, #FFE0B2, $main);
-    background-image: -o-linear-gradient(top, #FFE0B2, $main);
-    background-image: linear-gradient(top, #FFE0B2, $main);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0B2', endColorstr='$main');
+    border: $standard_border;
+    background-image: -webkit-linear-gradient(top, $lighter, $main);
+    background-image: -moz-linear-gradient(center top , $lighter, $main);
+    background-image: -ms-linear-gradient(top, $lighter, $main);
+    background-image: -o-linear-gradient(top, $lighter, $main);
+    background-image: linear-gradient(top, $lighter, $main);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$lighter', endColorstr='$main');
 }
 
 /*Sets the email sent confirmation image*/
@@ -201,25 +204,25 @@ $main: #345c97;
 /*Sets the background color gradient, font color and border color for the Fill out a chat survey button*/
 .qp_end_session_survey{
     color: black;
-    border: 1px solid $main;
-    background-image: -webkit-linear-gradient(top, #FFE0B2, $main);
-    background-image: -moz-linear-gradient(center top , #FFE0B2, $main);
-    background-image: -ms-linear-gradient(top, #FFE0B2, $main);
-    background-image: -o-linear-gradient(top, #FFE0B2, $main);
-    background-image: linear-gradient(top, #FFE0B2, $main);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0B2', endColorstr='$main');
+    border: $standard_border;
+    background-image: -webkit-linear-gradient(top, $lighter, $main);
+    background-image: -moz-linear-gradient(center top , $lighter, $main);
+    background-image: -ms-linear-gradient(top, $lighter, $main);
+    background-image: -o-linear-gradient(top, $lighter, $main);
+    background-image: linear-gradient(top, $lighter, $main);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$lighter', endColorstr='$main');
 }
 
 /*Sets the background color gradient, font color and border color for the OK button*/
 .qp_end_session_ok_button{
     color: black;
-    border: 1px solid $main;
-    background-image: -webkit-linear-gradient(top, #FFE0B2, $main);
-    background-image: -moz-linear-gradient(center top , #FFE0B2, $main);
-    background-image: -ms-linear-gradient(top, #FFE0B2, $main);
-    background-image: -o-linear-gradient(top, #FFE0B2, $main);
-    background-image: linear-gradient(top, #FFE0B2, $main);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0B2', endColorstr='$main');
+    border: $standard_border;
+    background-image: -webkit-linear-gradient(top, $lighter, $main);
+    background-image: -moz-linear-gradient(center top , $lighter, $main);
+    background-image: -ms-linear-gradient(top, $lighter, $main);
+    background-image: -o-linear-gradient(top, $lighter, $main);
+    background-image: linear-gradient(top, $lighter, $main);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$lighter', endColorstr='$main');
 }
 
 /*----------Offline overlay---------*/
@@ -227,7 +230,7 @@ $main: #345c97;
 
 /*Sets the background color for the offline overlay screen*/
 .qp_offline_overlay{
-    background-color: #FFE0B2;
+    background-color: $lighter;
 }
 
 /*Sets the background color for the offline message*/
@@ -250,13 +253,13 @@ $main: #345c97;
 /*Sets the background color gradient, font color and border color for the Send button*/
 .qp_offline_initial_send_button{
     color: black;
-    border: 1px solid $main;
-    background-image: -webkit-linear-gradient(top, #FFE0B2, $main);
-    background-image: -moz-linear-gradient(center top , #FFE0B2, $main);
-    background-image: -ms-linear-gradient(top, #FFE0B2, $main);
-    background-image: -o-linear-gradient(top, #FFE0B2, $main);
-    background-image: linear-gradient(top, #FFE0B2, $main);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0B2', endColorstr='$main');
+    border: $standard_border;
+    background-image: -webkit-linear-gradient(top, $lighter, $main);
+    background-image: -moz-linear-gradient(center top , $lighter, $main);
+    background-image: -ms-linear-gradient(top, $lighter, $main);
+    background-image: -o-linear-gradient(top, $lighter, $main);
+    background-image: linear-gradient(top, $lighter, $main);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$lighter', endColorstr='$main');
 }
 
 /*Sets the font color for the email sent confirmation message*/
@@ -269,7 +272,7 @@ $main: #345c97;
 
 /*Sets the background color for the Add email overlay*/
 .qp_email_form{
-    background-color: #FFE0B2;
+    background-color: $lighter;
 }
 
 /*Sets the background color and font color for the email address textbox*/
@@ -281,11 +284,11 @@ $main: #345c97;
 /*Sets the background color gradient, font color and border color for the buttons on this screen*/
 .qp_email_form_btn{
     color: black;
-    border: 1px solid $main;
-    background-image: -webkit-linear-gradient(top, #FFE0B2, $main);
-    background-image: -moz-linear-gradient(center top , #FFE0B2, $main);
-    background-image: -ms-linear-gradient(top, #FFE0B2, $main);
-    background-image: -o-linear-gradient(top, #FFE0B2, $main);
-    background-image: linear-gradient(top, #FFE0B2, $main);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0B2', endColorstr='$main');
+    border: $standard_border;
+    background-image: -webkit-linear-gradient(top, $lighter, $main);
+    background-image: -moz-linear-gradient(center top , $lighter, $main);
+    background-image: -ms-linear-gradient(top, $lighter, $main);
+    background-image: -o-linear-gradient(top, $lighter, $main);
+    background-image: linear-gradient(top, $lighter, $main);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$lighter', endColorstr='$main');
 }
