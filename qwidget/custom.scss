@@ -4,6 +4,13 @@ $lighter: #6785b1;
 
 $standard_border: 1px solid $main;
 
+/*Define flex widget size*/
+#qpchatwidget,
+#qp_question_input_container,
+#qp_question_input_box{
+	width: 100% !important;
+}
+
 /*Sets the border color for the entire Qwidget*/
 #qpchatwidget{
     border-color: $main;
