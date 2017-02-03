@@ -5,13 +5,13 @@ $lighter: #6785b1;
 $standard_border: 1px solid $main;
 
 /*Define flex widget size*/
-#qpchatwidget,
-#embeddedIframeQwidget{
-	height: 190px ! important;
+#qpchatwidget{
+	height: 300px ! important;
 }
 
 #qpchatwidget{
 	width: 90%;
+	height: 270px;
 }
 
 #qp_question_input_container,

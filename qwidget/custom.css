@@ -1,10 +1,10 @@
 /*Define flex widget size*/
-#qpchatwidget,
-#embeddedIframeQwidget {
-  height: 190px !important; }
+#qpchatwidget {
+  height: 300px !important; }
 
 #qpchatwidget {
-  width: 90%; }
+  width: 90%;
+  height: 270px; }
 
 #qp_question_input_container,
 #qp_question_input_box {
