@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxnanbnsnfns11111111111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined">
+  <layouts>
+    <layout name="npnxnanbsnfns11111111111" font="Articulate" controllayout="npnxnanbsnfns11111111111" colorscheme="pxnanbnsnfns11111111111" string_table="pxnanbnsnfns11111111111" />
+    <layout name="pxabnsnfns11111111111" font="Articulate" controllayout="pxabnsnfns11111111111" colorscheme="pxnanbnsnfns11111111111" string_table="pxnanbnsnfns11111111111" />
+    <layout name="npxnabnsnfns11111111111" font="Articulate" controllayout="npxnabnsnfns11111111111" colorscheme="pxnanbnsnfns11111111111" string_table="pxnanbnsnfns11111111111" />
+    <layout name="npnxnanbnsnfns11111111111" font="Articulate" controllayout="npnxnanbnsnfns11111111111" colorscheme="pxnanbnsnfns11111111111" string_table="pxnanbnsnfns11111111111" />
+    <layout name="pxabnsnfns11111111110" font="Articulate" controllayout="pxabnsnfns11111111110" colorscheme="pxnanbnsnfns11111111111" string_table="pxnanbnsnfns11111111111" />
+    <layout name="pxnanbnsnfns11111111111" font="Articulate" controllayout="pxnanbnsnfns11111111111" colorscheme="pxnanbnsnfns11111111111" string_table="pxnanbnsnfns11111111111" />
+    <layout name="npxnanbsnfns11111111111" font="Articulate" controllayout="npxnanbsnfns11111111111" colorscheme="pxnanbnsnfns11111111111" string_table="pxnanbnsnfns11111111111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="OSCOLA Referencing: an introduction" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="200" />
+                  <property name="height" value="67" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/6Xtl3fJZ9DY.jpg" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="glossary" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="totalelapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="true" />
+          <option name="replay" value="true" />
+          <option name="pauseplay" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111111110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns11111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnanbsnfns11111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxnanbnsnfns11111111111">
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+                <color rgb="0xE0E0E0" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xDBDBDB" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA6A6A6" alpha="100" stop="0" />
+                <color rgb="0xA6A6A6" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3498DB" alpha="100" stop="0" />
+                <color rgb="0x3498DB" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3498DB" alpha="100" stop="0" />
+                <color rgb="0x3498DB" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA6A6A6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA6A6A6" alpha="100" stop="0" />
+                <color rgb="0xA6A6A6" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA6A6A6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA6A6A6" alpha="100" stop="0" />
+                <color rgb="0xA6A6A6" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x404040" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxnanbnsnfns11111111111">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Transcript</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Articulate">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+        <file bold="false" italic="true" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5lkpNyHjxqZ" displaytext="Menu" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5lkpNyHjxqZ.6I3TaqhzkQu" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6EtsxNrYrN6" displaytext="Learning outcomes" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.64L0DTFxL2A" displaytext="University of Lincoln's Referencing handbook" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6YwwL1nL7zN" displaytext="Why reference?" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6I5GY6BPX3F" displaytext="OSCOLA referencing: part 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6fy65AMJj0Y" displaytext="When do you need to reference?" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6HAf63MXL29" displaytext="What information is included in a reference?" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6Nf6XphS6s2" displaytext="Footnotes" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.5gF6ARVrAy5" displaytext="Question 1 " expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6JeyQcu1PGb" displaytext="Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.5mVzURpDQRw" displaytext="Repeating references" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6YYC2FGixkd" displaytext="Part two: Bibliography" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.5z8ndZRfa2L" displaytext="Question 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6YpbrGkOOAj" displaytext="Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.5qjiTnR4n7i" displaytext="Secondary referencing" expand="false" type="slide" />
+            <slidelink slideid="_player.5lkpNyHjxqZ.6fKCoLBJuGS" displaytext="Keeping track" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6FpUfKQyAu6" displaytext="Quiz" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6FpUfKQyAu6.69mb4ECCSvY" displaytext="Test your knowledge" expand="false" type="slide" />
+            <slidelink slideid="_player.6FpUfKQyAu6.5vYyVxTCGmo" displaytext="Question 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6FpUfKQyAu6.6KtLQLlj6ka" displaytext="Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6FpUfKQyAu6.5tksSFg1Ktz" displaytext="Question 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6FpUfKQyAu6.5dxP1VaUK3J" displaytext="Question 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6FpUfKQyAu6.5qi5yMRpU7b" displaytext="Question 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6FpUfKQyAu6.6FLRRyNd39l" displaytext="Question 6" expand="false" type="slide" />
+            <slidelink slideid="_player.6FpUfKQyAu6.6iZv05lhp1f" displaytext="Thanks for taking part" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5lkpNyHjxqZ.6I3TaqhzkQu" slidebank="false" type="slide">this short tutorial explains why and when you need to reference.  it also provides information on how to reference using the university of lincoln's oscola style.   oscola referencing  an introduction  hello! sound available plug in your headphones  or speakers </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6EtsxNrYrN6" slidebank="false" type="slide">get help at any time by clicking here this tutorial should take about 25 minutes to complete at the end of this tutorial you should:  understand why and when you need to reference  be able to identify the information you need to reference  be familiar with the oscola style of referencing learning outcomes </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.64L0DTFxL2A" slidebank="false" type="slide">pick up a copy from the university of lincoln library  an e-copy is also available by clicking on the link: http://lncn.eu/gjq9  tip: there are many other referencing styles so, if you are unsure which style your school uses, please check before proceeding. </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6YwwL1nL7zN" slidebank="false" type="slide">tip: the most effective way to reference your work is to keep a record of the information sources when you are using them why reference? you need to reference: to demonstrate that you have undertaken research to ensure that your tutor can find the information sources that you have referred to to give your tutor the opportunity to consider the reliability of your information sources to avoid accusations of plagiarism    </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6I5GY6BPX3F" slidebank="false" type="slide">there are two parts to oscola referencing...  footnotes footnotes footnotes bibliography bibliography bibliography oscola referencing </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6fy65AMJj0Y" slidebank="false" type="slide">quoting quoting quoting paraphrasing paraphrasing paraphrasing summarising summarising summarising whenever you use a source of information! when do you need to give a reference? </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6HAf63MXL29" slidebank="false" type="slide">what information is included in a reference? the information that you include in a reference depends on the type of source click on the icons to find out more about what information is required and how this should be presented using the oscola style of referencing </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6Nf6XphS6s2" slidebank="false" type="slide">footnotes 1. cases  the first time you mention a case you should include the party names in the footnote.  after this you can follow the guidelines on repeating references or just give the case citation click for an example </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.5gF6ARVrAy5" slidebank="false" type="slide">which footnote correctly references a book with more than three authors?  philippe sands, jacqueline peel, ruth mackenzie and adriana fabra aguilar, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands, jacqueline peel, ruth mackenzie and adriana fabra aguilar, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands, jacqueline peel, ruth mackenzie and adriana fabra aguilar, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands, jacqueline peel, ruth mackenzie and adriana fabra aguilar, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands, jacqueline peel, ruth mackenzie and adriana fabra aguilar, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands, jacqueline peel, ruth mackenzie and adriana fabra aguilar, principles of international environmental law (3rd edn, cambridge university press 2012). sands p and others, principles of international environmental law (3rd edn, cambridge university press 2012). sands p and others, principles of international environmental law (3rd edn, cambridge university press 2012). sands p and others, principles of international environmental law (3rd edn, cambridge university press 2012). sands p and others, principles of international environmental law (3rd edn, cambridge university press 2012). sands p and others, principles of international environmental law (3rd edn, cambridge university press 2012). sands p and others, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands and others, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands and others, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands and others, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands and others, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands and others, principles of international environmental law (3rd edn, cambridge university press 2012). philippe sands and others, principles of international environmental law (3rd edn, cambridge university press 2012). </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6JeyQcu1PGb" slidebank="false" type="slide">click and drag the superscript numbers next to the information that requires a reference  the recent decision in steinfeld v secretary of  state for education not only raises the issue of  how the law should be addressing a couple's  relationship choices, it also highlights how  discriminatory the civil partnership act 2004 is  to opposite-sex couples as it states that 'a civil  partnership is a relationship between two people of the same sex'.   2 1 </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.5mVzURpDQRw" slidebank="false" type="slide">repeating references if you refer to the same source several times in your work you do not need to give the full reference every time you refer to it.   1 1 1 2 2 2 there are two things that you can do:    </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6YYC2FGixkd" slidebank="false" type="slide">bibliography primary sources at the end of your assignment you need to give a complete list of all the information sources that you have referred to in your footnotes or consulted but not directly referenced image by greg harding you should: put the list at the end of your assignment arrange the sources of information by type:  primary sources (cases and legislation) should be listed first, followed by the secondary sources (books, journal articles, etc.) list each section in alphabetical order by party name, legislation title or author's surname  secondary sources </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.5z8ndZRfa2L" slidebank="false" type="slide">royal mail estates ltd v maple teesdale [2015] ewhc 1890 (ch), [2016] 1 wlr 942. royal mail estates ltd v maple teesdale [2015] ewhc 1890 (ch), [2016] 1 wlr 942. royal mail estates ltd v maple teesdale [2015] ewhc 1890 (ch), [2016] 1 wlr 942. royal mail estates ltd v maple teesdale [2015] ewhc 1890 (ch), [2016] 1 wlr 942. phonogram ltd v lane [1982] qb 938. phonogram ltd v lane [1982] qb 938. phonogram ltd v lane [1982] qb 938. phonogram ltd v lane [1982] qb 938. black v smallwood (1966) 39 aljr 405. black v smallwood (1966) 39 aljr 405. black v smallwood (1966) 39 aljr 405. black v smallwood (1966) 39 aljr 405. shogun finance ltd v hudson [2003] ukhl 62, [2004] 1 ac 919. shogun finance ltd v hudson [2003] ukhl 62, [2004] 1 ac 919. shogun finance ltd v hudson [2003] ukhl 62, [2004] 1 ac 919. shogun finance ltd v hudson [2003] ukhl 62, [2004] 1 ac 919. 1 2 3 4 drag and drop the case references into the order that they should appear in a table of cases: </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6YpbrGkOOAj" slidebank="false" type="slide">judith-anne mackenzie, textbook on land law (16th edn, oxford university press 2016). judith-anne mackenzie, textbook on land law (16th edn, oxford university press 2016). judith-anne mackenzie, textbook on land law (16th edn, oxford university press 2016). judith-anne mackenzie, textbook on land law (16th edn, oxford university press 2016). judith-anne mackenzie, textbook on land law (16th edn, oxford university press 2016). judith-anne mackenzie, textbook on land law (16th edn, oxford university press 2016). mackenzie judith-anne, textbook on land law (16th edn, oxford university press 2016). mackenzie judith-anne, textbook on land law (16th edn, oxford university press 2016). mackenzie judith-anne, textbook on land law (16th edn, oxford university press 2016). mackenzie judith-anne, textbook on land law (16th edn, oxford university press 2016). mackenzie judith-anne, textbook on land law (16th edn, oxford university press 2016). mackenzie judith-anne, textbook on land law (16th edn, oxford university press 2016). mackenzie j, textbook on land law (16th edition, oxford university press, 2016). mackenzie j, textbook on land law (16th edition, oxford university press, 2016). mackenzie j, textbook on land law (16th edition, oxford university press, 2016). mackenzie j, textbook on land law (16th edition, oxford university press, 2016). mackenzie j, textbook on land law (16th edition, oxford university press, 2016). mackenzie j, textbook on land law (16th edition, oxford university press, 2016). mackenzie j, textbook on land law (16th edn, oxford university press 2016). mackenzie j, textbook on land law (16th edn, oxford university press 2016). mackenzie j, textbook on land law (16th edn, oxford university press 2016). mackenzie j, textbook on land law (16th edn, oxford university press 2016). mackenzie j, textbook on land law (16th edn, oxford university press 2016). mackenzie j, textbook on land law (16th edn, oxford university press 2016). which of the following is the correct way to reference a book in your bibliography? </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.5qjiTnR4n7i" slidebank="false" type="slide">secondary referencing if the information source that you are reading has quoted or summarised another author's work, and you would like to include this information in your assignment, you should try and locate the original source. if this is not possible, you need to treat it as a secondary reference.   in the footnote: give the full reference of the original source  then put 'cited in'  followed by the full reference of the source that you have read in the bibliography: only list the source that you have read    click for an example </slidetext>
+      <slidetext slideid="5lkpNyHjxqZ.6fKCoLBJuGS" slidebank="false" type="slide">keeping track it is important to keep track of every information source that you use   the best way to do this is to: make a note of the publication details needed to create a reference take the page number of any quotes that you may use or any information that you may paraphrase or summarise  refworks/endnote library website other free services image by electric egg </slidetext>
+      <slidetext slideid="6FpUfKQyAu6.69mb4ECCSvY" slidebank="false" type="slide">test your knowledge now take this short quiz to check your understanding of oscola referencing. start quiz start quiz start quiz start quiz start quiz </slidetext>
+      <slidetext slideid="6FpUfKQyAu6.5vYyVxTCGmo" slidebank="false" type="slide">the following are footnote references, select the correct information source from the drop down menu: roxanna dehaghani, 'automatic authorisation: an exploration of the decision to detain in police custody' (2017) 3 crim lr 187. journal article greenpeace, 'rainbow warrior arrives in cuba to document  the island's eco food system: press release' (greenpeace, 13 january 2017) &lt;http://www.greenpeace.org/international/en/press/releases/2017/rainbow-warrior-arrives-in-cuba-to-document-the-islands-eco-food-system/&gt; accessed 10 february 2017. website robert schütze, european union law (cambridge university press 2015). book </slidetext>
+      <slidetext slideid="6FpUfKQyAu6.6KtLQLlj6ka" slidebank="false" type="slide">drag and drop the different components of a journal reference into the correct order:  luís duarte d’almeida, luís duarte d’almeida, luís duarte d’almeida, luís duarte d’almeida, mlr mlr mlr mlr (2017) (2017) (2017) (2017) 80(2) 80(2) 80(2) 80(2) 202. 202. 202. 202. ‘arguing a fortiori’ ‘arguing a fortiori’ ‘arguing a fortiori’ ‘arguing a fortiori’ </slidetext>
+      <slidetext slideid="6FpUfKQyAu6.5tksSFg1Ktz" slidebank="false" type="slide">how would you reference the following edited book in your footnote? panos koutrakos and jukka snell, research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell, research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell, research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell, research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell, research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell, research handbook on the law of the eu's internal market (elgar 2017). koutrakos p and snell j (eds), research handbook on the law of the eu's internal market (elgar 2017). koutrakos p and snell j (eds), research handbook on the law of the eu's internal market (elgar 2017). koutrakos p and snell j (eds), research handbook on the law of the eu's internal market (elgar 2017). koutrakos p and snell j (eds), research handbook on the law of the eu's internal market (elgar 2017). koutrakos p and snell j (eds), research handbook on the law of the eu's internal market (elgar 2017). koutrakos p and snell j (eds), research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell (eds), research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell (eds), research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell (eds), research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell (eds), research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell (eds), research handbook on the law of the eu's internal market (elgar 2017). panos koutrakos and jukka snell (eds), research handbook on the law of the eu's internal market (elgar 2017). p koutrakos and j snell, research handbook on the law of the eu's internal market (elgar 2017). p koutrakos and j snell, research handbook on the law of the eu's internal market (elgar 2017). p koutrakos and j snell, research handbook on the law of the eu's internal market (elgar 2017). p koutrakos and j snell, research handbook on the law of the eu's internal market (elgar 2017). p koutrakos and j snell, research handbook on the law of the eu's internal market (elgar 2017). p koutrakos and j snell, research handbook on the law of the eu's internal market (elgar 2017). </slidetext>
+      <slidetext slideid="6FpUfKQyAu6.5dxP1VaUK3J" slidebank="false" type="slide">chapter in an edited book chapter in an edited book chapter in an edited book chapter in an edited book chapter in an edited book chapter in an edited book book book book book book book website website website website website website journal article journal article journal article journal article journal article journal article what type of information source is this?  </slidetext>
+      <slidetext slideid="6FpUfKQyAu6.5qi5yMRpU7b" slidebank="false" type="slide">in which order should your list of sources be presented at the end of your assignment? table of cases table of legislation bibliography </slidetext>
+      <slidetext slideid="6FpUfKQyAu6.6FLRRyNd39l" slidebank="false" type="slide">type your text here you have referred to page 35 of the 7th edition of contract law: text, cases and materials by ewan mckendrick.  it was published in 2016 by oxford university press.    how would you reference this in your bibliography? </slidetext>
+      <slidetext slideid="6FpUfKQyAu6.6iZv05lhp1f" slidebank="false" type="slide">thanks for taking part we hope you found this useful.  if you need any further advice, speak to your tutor or your academic subject librarian, helen williams  goodbye! </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Articulate' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://library.lincoln.ac.uk/" image="story_content/url.png" title="Library website" />
+      <resource url="http://guides.library.lincoln.ac.uk/ld.php?content_id=26426169" image="story_content/url.png" title="Referencing handbook: OSCOLA" />
+      <resource url="http://guides.library.lincoln.ac.uk/learn/referencing" image="story_content/url.png" title="Plagiarism tutorial" />
+      <resource url="http://guides.library.lincoln.ac.uk/find/reference-management" image="story_content/url.png" title="RefWorks" />
+      <resource url="http://guides.library.lincoln.ac.uk/az.php" image="story_content/url.png" title="Databases" />
+      <resource url="http://guides.library.lincoln.ac.uk/asl" image="story_content/url.png" title="Academic Subject Librarians" />
+      <resource url="http://secretariat.blogs.lincoln.ac.uk/university-regulations" image="story_content/url.png" title="University General Regulations" />
+      <resource url="http://guides.library.lincoln.ac.uk/law" image="story_content/url.png" title="Law library guide" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5lkpNyHjxqZ.6I3TaqhzkQu" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Hello!  This short tutorial explains why and when you need to reference.  It also provides information on how to reference using the University of Lincoln’s Harvard style. Plug in your headphones or speakers and click on the next button to continue.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6EtsxNrYrN6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;At the end of this tutorial you should:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	understand why and when you need to reference&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	be able to identify the information you need to reference &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	and be familiar with the Harvard style of referencing&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;It should take about 20 minutes to work through and includes some short activities.  You can get help as you go along by clicking on the question mark icon at the top of the screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.64L0DTFxL2A" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;This tutorial is based on the University of Lincoln’s Harvard referencing handbook.  Staff and students can pick up a copy from the University of Lincoln Library.  An e-copy is also publicly available by clicking on the link. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Please be aware that there are many other referencing styles so, if you are unsure which style your school uses, please check before proceeding.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6YwwL1nL7zN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;You need to reference:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 51, 96, 144]' blockindent='51' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	to demonstrate that you have undertaken research&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 51, 96, 144]' blockindent='51' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	to ensure that your tutor can find the information sources that you have referred to&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 51, 96, 144]' blockindent='51' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	to give your tutor the opportunity to consider the reliability of your information sources&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 51, 96, 144]' blockindent='51' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	and to avoid accusations of plagiarism, &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;There is a plagiarism tutorial that can be accessed via the Library website or by clicking on the Resources tab. The most effective way to reference your work is to keep a record of the information sources when you are using them.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6I5GY6BPX3F" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;There are two parts to Harvard referencing:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	The first is an in-text citation that you place within your assignment whenever you quote, paraphrase or summarise.  An in-text citation should include the author’s name, date of publication and relevant page number in round brackets.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click to see an example of an in-text citation. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;There is no need to include the author’s surname in the in-text citation if you have mentioned in in the main body of your assignment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;br&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;If the author’s name does not appear in the main body of your assignment you should include it in the in-text citation (along with the year of publication and page number).&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	The second part to Harvard referencing is a reference list placed at the end of your assignment.  Your reference list gives the full publication details of everything you have referred to.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click to see an example of a reference list.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Your reference list should be arranged in alphabetical order by the author’s surname.   &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6fy65AMJj0Y" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;You need to give a reference whenever you use a source of information.  This includes cases, legislation, books, journal articles and websites.  Click to find out more about quoting, paraphrasing, summarising and copying by clicking on the buttons.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;b&gt;Quoting&lt;/b&gt;&lt;/font&gt; &lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Quoting is copying a short section of text, word for word, directly from an information source.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Short quotations:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 148]' blockindent='148' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;o	are usually less than one line&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 148]' blockindent='148' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;o	they should be kept within the sentence&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 148]' blockindent='148' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;o	should have double quotation marks at the beginning and end &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 148]' blockindent='148' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;o	and are followed immediately with an in-text citation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click for an example&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;When quoting less than one line, put double quotation marks at the beginning and end of the quote and follow the quote immediately with an in-text citation. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Longer quotations:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 144]' blockindent='144' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;o	should start on a new line&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 144]' blockindent='144' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;o	should be indented&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 144]' blockindent='144' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;o	should have double quotation marks at the beginning and end &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 144]' blockindent='144' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;o	and are followed immediately with an in-text citation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click for an example&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Longer quotations, usually more than one line, should start on a new line and be indented.  Put double quotation marks at the beginning and end of the quote and follow the quote immediately with an in-text citation.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;b&gt;Paraphrasing&lt;/b&gt;&lt;/font&gt; &lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Paraphrasing is when you put a short section of text from an information source into your own words.  Although the words are your own you are still using ideas from the original text so you must acknowledge the original source by referencing it.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click to see the highlighted text paraphrased.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Although you have re-worded the information you have read because you found it in a journal you still need to reference it.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;b&gt;Summarising&lt;/b&gt;&lt;/font&gt; &lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Summarising is when you concisely describe, in your own words, the main ideas of an information source.  You are providing a broad overview of that source so you must acknowledge it.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click to see a summary of this article.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Although you have, in your own words, summarised the main theme of the article, you still need to reference it.      &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;b&gt;Copying&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;If you reproduce any diagrams, figures, images or tables you should provide a short description followed by an in-text citation.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click on the graph to see how you would include it in your assignment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Provide a short description (in italics) followed by an in-text citation.  The full publication details of the source where you found the graph should be included in your reference list. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6HAf63MXL29" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;The information that you include in a reference depends on the type of source.  Click on the icons for more information.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	For a book you need to provide the author’s name, year of publication, title, edition (if it’s not the first edition), place of publication and publisher.  Click for an example.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	When referencing a journal article you will need to give the author, the year of publication, the title of the article, the title of the journal, volume number and part/issue/month/season (whichever is applicable) followed by the page range.  Click for an example.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	A website reference would include (where available) the author, year of update, title of the webpage, place of publication, publisher, the web address and the date you accessed it.  Click for an example. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6Nf6XphS6s2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Let’s look at the in-text citation in more detail.  Your in-text citation should go after you quote, paraphrase or summarise and should include: &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;1.	The author’s surname, the year of publication and a page number in round brackets.  Click for an example.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;2.	If there are two authors you would put ‘and’ between their names.  &lt;br&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click for an example.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;3.	If there are more than two authors, give the surname of the first author followed by ‘et al.’ &lt;br&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click for an example.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;4.	If you use the author’s name in the sentence you do not need to repeat it in the in-text citation.  &lt;br&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click for an example.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Acronyms such as CPS or NHS can be given either in full or as the acronym, but be consistent and make sure your in-text citation matches your reference list entry. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Now that you know a bit more about in-text citations, have a go at answering these questions.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.5gF6ARVrAy5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Select the correct in-text citation when referencing a book with one author&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6JeyQcu1PGb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Complete the sentence by dragging the correct in-text citation into place&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.5mVzURpDQRw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;The information that you include in a reference depends on the type of source.  Click on the icons for more information.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	For a book you need to provide the author’s name, year of publication, title, edition (if it’s not the first edition), place of publication and publisher.  Click for an example.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	When referencing a journal article you will need to give the author, the year of publication, the title of the article, the title of the journal, volume number and part/issue/month/season (whichever is applicable) followed by the page range.  Click for an example.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	A website reference would include (where available) the author, year of update, title of the webpage, place of publication, publisher, the web address and the date you accessed it.  Click for an example. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6YYC2FGixkd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Your reference list gives the full details of the information sources (such as cases, legislation, books, journal articles etc.) that you have referred to.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;You should:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	put the reference list at the end of your assignment and &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	arrange it in alphabetical order by the surname of the author&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click to see an example of a reference list.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;The only page numbers that should go in a reference list are the page ranges of chapters from edited books and journal articles.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Now answer the following question regarding the layout of a reference list.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6YpbrGkOOAj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Your in-text citation is for a book with three authors.  Please select the correct format&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.5qjiTnR4n7i" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;If the information source that you are reading has quoted or summarised another author’s work and you would like to include this information in your assignment, you should try and locate the original source.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;If this is not possible you need to treat it as a secondary reference.  To do this:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	Cite the original author and year of publication&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	Then put ‘cited in’&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	Followed by the author, year of publication and page number of the text you have read.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click for an example&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;This example shows you how to include a secondary reference in your assignment.  The in-text citation cites the original author and year of publication followed by the words ‘cited in’ and then the author, year of publication and page number of the text you have read. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;The second example shows what information should go in your reference list.  The only source that you list is the one that you have read. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5lkpNyHjxqZ.6fKCoLBJuGS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;It is important to keep track of every information source that you use.  The best way to do this is to:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	make a note of the publication details needed to create a reference  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	and to take the page number of any quotes that you may use or any information that you may paraphrase or summarise as you will need this for your in-text citation.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;The University of Lincoln Library subscribes to referencing management software, RefWorks and Endnote, which can help you gather and organise your references.  There are also a number of other services offering this free of charge.  The search facility available via the Library website can help you keep track of your searches and any relevant documents.   &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Click to find out more about keeping track when researching.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;b&gt;RefWorks and Endnote&lt;/b&gt;&lt;/font&gt; &lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;RefWorks and Endnote enable you to either manually add or export the information required to create a reference.  They automatically generate reference lists or bibliographies for your assignment.  Both are accessible from on and off campus; RefWorks requires you to register the first time you use it and Endnote Web can be downloaded to your computer at home.  Access RefWorks or Endnote via the Library website or by clicking on the relevant icon.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;b&gt;Other free services&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;This is just a selection of the services that are freely available: &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 72, 96, 144]' blockindent='72' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	Microsoft Word - offers a referencing management tool.  For help on how to use this service, open Word and click on the ‘references’ tab.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 72, 96, 144]' blockindent='72' indent='-24'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&amp;#183;	RefMe, Mendeley and Zotero are web based services.  Click on the relevant icon for more information. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;b&gt;Library website&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Keep a record of your searches and any documents that you find when searching the library website.  This service is accessible from on and off campus, you just need to create an EBSCOhost account.  Click on the tutorial for information on how to access and create an account.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6FpUfKQyAu6.69mb4ECCSvY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Now take this short quiz to check your understanding of Harvard referencing.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6FpUfKQyAu6.5vYyVxTCGmo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Select the correct information source for the references&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6FpUfKQyAu6.6KtLQLlj6ka" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Drag and drop the different components of a journal reference into the correct order&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6FpUfKQyAu6.5dxP1VaUK3J" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;What type of information source is this?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6FpUfKQyAu6.6FLRRyNd39l" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;You have referred to page 25 of the book &lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;i&gt;What is online research?: using the Internet for social science&lt;/i&gt;&lt;/font&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt; research published in 2012.  The authors are Hooley, Marriott and Wellens.  How would you cite this in the following sentence?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6FpUfKQyAu6.6iZv05lhp1f" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Articulate' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;Thanks for taking part.  We hope you found this useful.  If you need any further advice, speak to your tutor or your Academic Subject Librarian.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Bibliography">A "bibliography" is located at the end of your assignment (after your Table of Legislation) and contains the full reference of all the secondary sources that you have referred to or consulted when writing your assignment.</term>
+      <term title="Cite">To "cite" is to refer to a source of information in the body of your work.</term>
+      <term title="Footnote">A "footnote" is a note located at the foot of the page.  In OSCOLA footnotes are used to give the reader the full details of a source of information.</term>
+      <term title="OSCOLA">"OSCOLA" stands for Oxford University Standard for the Citation of Legal Authorities and is a referencing style used by many Law Schools. </term>
+      <term title="Paraphrasing">"Paraphrasing" is putting a section of text from an information source into your own words. Although you are changing the words or phrasing from the original text, you are retaining and fully communicating the original meaning.</term>
+      <term title="Plagiarism">"Plagiarism" is the use of another author's ideas and words, either intentionally or unintentionally, without acknowledging the source of the information. It is an academic offence and will be treated seriously by the University (see University General Regulations available at: http://secretariat.blogs.lincoln.ac.uk/university-regulations/</term>
+      <term title="Primary source">A "primary source" is an original source of information.  In law, primary sources include law reports, primary and secondary legislation, EU and International treaties. </term>
+      <term title="Quotation">A "quotation" is a short section of text, copied word for word, directly from an information source into your work.  You must indicate a short quotation by using single quotation marks.  Longer quotations should be indented with a space either side of the quotation.  </term>
+      <term title="Reference">A "reference" is the full publication details of an information source that has been cited.</term>
+      <term title="Secondary source">A "secondary source" comments on or refers to a primary source. Secondary sources are books, journal articles and encyclopaedias.</term>
+      <term title="Summarising">"Summarising" is describing the main ideas/findings of an information source but without directly quoting from it.</term>
+      <term title="Superscript number">A "superscript number" is a small number set slightly above the normal line of type.  Superscript numbers can be automatically generated in Microsoft Word by clicking on the 'References' tab and 'Insert Footnote'.  </term>
+      <term title="Table of Cases">A "Table of Cases" is located at the end of your assignment and contains the full reference (party names and case citation) of the cases that you have referred to or consulted when writing your assignment.</term>
+      <term title="Table of Legislation">A "Table of Legislation" is located at the end of your assignment (after your Table of Cases) and contains the name of all the legislation that you have referred to or consulted when writing your assignment.</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
