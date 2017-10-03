@@ -8,6 +8,9 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
+	<!-- Local Styles -->
+	<link rel="stylesheet" href="css/style.css" />
 	<!-- InstanceBeginEditable name="head" -->
 		<!-- InstanceEndEditable -->
 	<!-- InstanceParam name="nav_home_class" type="text" value="active" -->
@@ -49,12 +52,28 @@
 		<!-- InstanceEndEditable -->
 		</div>
 		
-		<!-- InstanceBeginEditable name="footer" -->
+		<footer class="footer">
+			<div class="container">
+				<span id="footerYear"></span> Andrew Beeken
+				<!-- InstanceBeginEditable name="footer" -->				
 		<!-- InstanceEndEditable -->
+			</div>
+		</footer>
+		
+		<!-- JQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		
 		<!-- Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		
+		<script>
+			$( document ).ready(function(){
+				setFooterYear();
+			});
+		</script>
+		
+		<!-- Drop additional scripts and calls here -->
+		<script src="scripts/scripts.js"></script>
 		<!-- InstanceBeginEditable name="scripts" -->
 		<!-- InstanceEndEditable -->
 	</body>
