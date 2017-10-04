@@ -3,15 +3,17 @@
 	<head>
 	<meta charset="utf-8">
 	<!-- InstanceBeginEditable name="doctitle" -->
-		<title>The Playground</title>
-		<!-- InstanceEndEditable -->
+	<title>The Playground</title>
+	<!-- InstanceEndEditable -->
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" />
 	<!-- Local Styles -->
 	<link rel="stylesheet" href="css/style.css" />
 	<!-- InstanceBeginEditable name="head" -->
-		<!-- InstanceEndEditable -->
-	<!-- InstanceParam name="nav_home_class" type="text" value="nav-item active" -->
+	<link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" />
+	
+	<!-- InstanceEndEditable -->
+	<!-- InstanceParam name="nav_home_class" type="text" value="nav-item" -->
 	<!-- InstanceParam name="nav_jquery_class" type="text" value="nav-item dropdown show" -->
 	</head>
 
@@ -24,7 +26,7 @@
 			</button>
 			<div class="navbar-collapse collapse" id="navbarSupportedContent">
 				<ul class="mr-auto navbar-nav">
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
 				  	<li class="nav-item dropdown show">
@@ -43,27 +45,67 @@
 	<div class="container" role="main">
 			<!-- InstanceBeginEditable name="content" -->
 			<div class="jumbotron">
-				<h1>The Playground</h1>
-				<p>A little tinker site to experiment with different CSS and HTML stuff</p>
+				<h1>Datatables</h1>
+				<p>This page contains an example of the JQuery Datatables plugin. I've used this in a few projects and it's really handy for transforming a straightforward HTML table into something a bit more dynamic. I've dropped a quick example in below, but check out <a href="https://datatables.net/">the Datatables website</a> to find out more!</p>
+				<p>Mix this in with some dynamic server side code to populate the tables and you can get a nice dashboarding app up and running in no time!</p>
 			</div>
 			
-			<p>Currently this is just a little set up of a bootstrap template in Dreamweaver. I'll be using this to play around with different things and hopefully blogging about it.</p>
-			
-			<p>In the meantime, if you want to check out any of my stuff, hit me up at the following places:</p>
-			
-			<ul>
-				<li>Website: <a href="http://andrewbeeken.co.uk">AndrewBeeken.co.uk</a></li>
-				<li>Twitter: <a href="http://twitter.com/abeeken">@abeeken</a></li>
-				<li>LinkedIn: <a href="http://uk.linkedin.com/in/abeeken">Andrew Beeken</a></li>
-			</ul>
-		<!-- InstanceEndEditable -->
+			<table id="dtExample">
+				<thead>
+					<tr role="row">
+						<th>First Name</th>
+						<th>Surname</th>
+						<th>Job Title</th>
+						<th>Staff ID</th>
+						<th>Salary (per annum)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					  <td>Jane</td>
+					  <td>Doe</td>
+					  <td>Boss</td>
+					  <td>59875</td>
+					  <td>£50,000</td>
+				  	</tr>
+					<tr>
+					  <td>John</td>
+					  <td>Smith</td>
+					  <td>Menial</td>
+					  <td>45678</td>
+					  <td>£14,000</td>
+				  	</tr>
+					<tr>
+					  <td>Dot</td>
+					  <td>Matrix</td>
+					  <td>Printer</td>
+					  <td>01010</td>
+					  <td>£7,000</td>
+				  	</tr>
+					<tr>
+					  <td>Jack</td>
+					  <td>Spratt</td>
+					  <td>Chef</td>
+					  <td>99999</td>
+					  <td>£30,000</td>
+				  	</tr>
+					<tr>
+						<td>Joe</td>
+						<td>Bloggs</td>
+						<td>General Do-er</td>
+						<td>01234</td>
+						<td>£24,000</td>
+				  	</tr>
+				</tbody>
+			</table>
+			<!-- InstanceEndEditable -->
 		</div>
 		
 		<footer class="footer">
 			<div class="container">
 				<span id="footerYear"></span> Andrew Beeken | Built with <a href="http://getbootstrap.com/">Bootstrap</a> and Dreamweaver
-			  <!-- InstanceBeginEditable name="footer" -->				
-		<!-- InstanceEndEditable -->
+			  <!-- InstanceBeginEditable name="footer" -->		
+				<!-- InstanceEndEditable -->
 			</div>
 		</footer>
 		
@@ -83,6 +125,12 @@
 			});
 		</script>
 		<!-- InstanceBeginEditable name="scripts" -->
+		<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#dtExample').DataTable();
+			});
+		</script>
 		<!-- InstanceEndEditable -->
 	</body>
 <!-- InstanceEnd --></html>
