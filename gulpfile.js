@@ -23,10 +23,10 @@ gulp.task('clean', function () {
     return del('docs/**/*');
 });
 
-gulp.task('staticFiles', function(){
-    return gulp.src(sourceFiles,{ base: '.' })
-        .pipe(gulp.dest('docs'))
-});
+//gulp.task('staticFiles', function(){
+//  return gulp.src(sourceFiles,{ base: '.' })
+//        .pipe(gulp.dest('docs'))
+//});
 
 //gulp.task('makezip', function(){
 //    return gulp.src('dist/'+distName+'/**/*')
@@ -37,33 +37,33 @@ gulp.task('staticFiles', function(){
 gulp.task('sass', function(){
     return gulp.src('sass/style.scss')
         .pipe(sass())
-        .pipe(gulp.dest('./docs/css'))
+        .pipe(gulp.dest('./css'))
 });
 
 gulp.task('minicss', function(){
-    return gulp.src('docs/css/style.css')
+    return gulp.src('css/style.css')
         .pipe(cssnano())
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest('./docs/css'))
+        .pipe(gulp.dest('./css'))
 });
 
 gulp.task('views', function(){
     return gulp.src('views/*.pug')
         .pipe(pug())
-        .pipe(gulp.dest('./docs'))
+        .pipe(gulp.dest('.'))
 });
 
 gulp.task('minijs', function(){
     return gulp.src(jsfiles)
         .pipe(concat('scripts.js'))
-        .pipe(gulp.dest('./docs/js'))
+        .pipe(gulp.dest('./js'))
         .pipe(jsnano())
-        .pipe(gulp.dest('./docs/js'))
+        .pipe(gulp.dest('./js'))
 });
 
-gulp.task('build', gulp.series('clean', 'sass', 'minicss', 'minijs', 'views', 'staticFiles'), function(){});
+gulp.task('build', gulp.series('sass', 'minicss', 'minijs', 'views'), function(){});
 
 gulp.task('watch', function(){
     gulp.watch('sass/*.scss', gulp.series('sass','minicss'));
