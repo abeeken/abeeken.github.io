@@ -4,11 +4,16 @@ block title
     | img // abeeken.github.io
 
 block content
-    p When this works it'll show the images. For the moment it's just a list.
     #gallery
 
 block footer
     script.
-        var galleryVars = ['name', 'path'];
-        var galleryTemplate = '<li class="{name}">{path}</li>';
-        getGithubFolder('https://api.github.com/repos/abeeken/abeeken.github.io/contents/img', galleryVars, '#gallery', galleryTemplate);
+        var galleryEndpoint = 'https://api.github.com/repos/abeeken/abeeken.github.io/contents/img';
+        var galleryVars = ['name', 'size', 'path', 'download_url'];
+        var galleryTarget = '#gallery';
+        var galleryTemplate = '<div class="gallery-item {name}">\
+            <img src="{download_url}" alt="Image for {name}" />\
+            <h2>Filename: {name}</h2>\
+            <p>Filesize: {size}</p>\
+        </li>';
+        getGithubFolder( galleryEndpoint, galleryVars, galleryTarget, galleryTemplate );

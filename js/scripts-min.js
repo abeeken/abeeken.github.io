@@ -1,1 +1,1 @@
-function getGithubFolder(t,n,e,i){$.getJSON(t,function(t){$.each(t,function(){var t=this,c=i;$.each(n,function(){c=c.replace("{"+this+"}",t[this])}),$(e).append(c)})})}
+function getGithubFolder(e,n,t,i){$.getJSON(e,function(e){$.each(e,function(){var e=this,c=i;$.each(n,function(){var n=new RegExp("{"+this+"}","g");c=c.replace(n,e[this])}),$(t).append(c)})})}

@@ -15,7 +15,8 @@ function getGithubFolder(path, vars, target, template){
             var output = template;
             $.each(vars, function(){
                 var value = this;
-                output = output.replace('{'+value+'}', item[value]);
+                var find = new RegExp('{'+value+'}', "g");
+                output = output.replace(find, item[value]);
             });
             $(target).append(output);
         });        
