@@ -1,4 +1,4 @@
-var distName = "flat_default";
+var distName = "abeeken.github.io";
 
 var gulp = require('gulp');
 var del = require('del');
