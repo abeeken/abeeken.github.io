@@ -1,1 +1,1 @@
-function getGithubFolder(o){$.getJSON(o,function(o){console.log(o)})}
+function getGithubFolder(t,n,e,i){$.getJSON(t,function(t){$.each(t,function(){var t=this,c=i;$.each(n,function(){c=c.replace("{"+this+"}",t[this])}),$(e).append(c)})})}
