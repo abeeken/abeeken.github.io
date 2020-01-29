@@ -15,8 +15,7 @@ var sourceFiles = [
 ];
 
 var jsfiles = [
-    'js/parts/globals.js',
-    'js/parts/scripts.js'
+    'js/parts/getGithubFolder.js'
 ];
 
 gulp.task('clean', function () {

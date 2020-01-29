@@ -1,1 +1,1 @@
-var testGlobal="FOO";$(document).ready(function(){console.log(testGlobal)});
+function getGithubFolder(o){$.getJSON(o,function(o){console.log(o)})}

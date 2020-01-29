@@ -1,0 +1,8 @@
+extends layout/layout.pug
+
+block content
+    p When this works it'll show the images...
+
+block footer
+    script.
+        getGithubFolder('https://api.github.com/repos/abeeken/abeeken.github.io/contents/img');
